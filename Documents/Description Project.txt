@@ -1,0 +1,26 @@
+Project: Work Manager
+
+Overview:
+	Quản lý công việc trên điện theo từng người dùng trong hệ thống. Các chức năng chính gồm: Thêm công việc, chỉnh sửa các thông tin mô tả cho công việc, thông báo tiến độ, lịch làm việc, quá trình,..
+	
+Function:
+	-Mobile application
+		Tổng số Activity: 2
+		
+		Danh sách công việc
+			-Hiển thị danh sách công việc
+			
+		Chi tiết công việc
+			-Hiển thị thông tin chi tiết một công việc được chọn
+		
+		
+	-Web server (RESTful API) - by Team Leader:
+		APIs
+			-get/list : Trả về danh sách công việc theo số điện thoại gửi lên
+	
+	
+	-Manager tool:
+		-Mô tả: Công cụ quản lý cho người trưởng nhóm
+		-Chức năng:
+			+Thêm một tài khoản vào hệ thống (số điện thoại)
+			+Thêm công việc: tạo thông tin chi tiết công việc
