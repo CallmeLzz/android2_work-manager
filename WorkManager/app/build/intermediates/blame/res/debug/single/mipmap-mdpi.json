@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\WorkManager\\Android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\detail.png",
+        "source": "D:\\WorkManager\\Android\\app\\src\\main\\res\\mipmap-mdpi\\detail.png"
+    },
+    {
+        "merged": "D:\\WorkManager\\Android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\task_list.png",
+        "source": "D:\\WorkManager\\Android\\app\\src\\main\\res\\mipmap-mdpi\\task_list.png"
+    },
+    {
+        "merged": "D:\\WorkManager\\Android\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\icon.png",
+        "source": "D:\\WorkManager\\Android\\app\\src\\main\\res\\mipmap-mdpi\\icon.png"
+    }
+]
