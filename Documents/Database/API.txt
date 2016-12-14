@@ -37,7 +37,7 @@
 				]
 			}
 			
-	-Get seen task:
+	-Set seen task:
 		-URL: https://wm.geevoo.com/seens/<user id number>/<token : string[32]>/<task id : array(integer)>
 		-Method: GET
 		-Result (JSON):
