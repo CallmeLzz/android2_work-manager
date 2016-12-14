@@ -1,0 +1,46 @@
+2)	RESTful API
+	Login:
+		-URL: https://wm.geevoo.com/login/<phone number>
+		-Method: GET
+		-Result (JSON):
+			{
+				"status"	: <true | false : boolean>,
+				"userid"	: <user id number : integer>
+			}
+		
+	-Verify phone number:
+		-URL: https://wm.geevoo.com/verify/<user id number>/<verify code : string[6]>
+		-Method: GET
+		-Result (JSON):
+			{
+				"status"	: <true | false : boolean>,
+				"userid"	: <user id number : integer>,
+				"token"		: <token string : string[32]>
+			}
+	
+	-Get task list:
+		-URL: https://wm.geevoo.com/tasks/<user id number>/<token : string[32]>
+		-Method: GET
+		-Result (JSON):
+			{
+				"status"	: <true | false : boolean>,
+				"tasks"		: [
+					{
+						"id": <task id : integer>,
+						"name": <task name : string>,
+						"descript": task description : string>,
+						"team": <team name : string>,
+						"begin": <begin date : string>,
+						"end": <end date : string>
+					},
+					..
+				]
+			}
+			
+	-Get seen task:
+		-URL: https://wm.geevoo.com/seens/<user id number>/<token : string[32]>/<task id : array(integer)>
+		-Method: GET
+		-Result (JSON):
+			{
+				"status"	: <true | false : boolean>
+			}
